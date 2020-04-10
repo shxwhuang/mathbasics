@@ -40,6 +40,8 @@
 - [第24章 仿射几何基础](#-24--------)
 - [附录：术语中英文对照](#----------)
 
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 # 第1章 简介
 <a href='#content'>返回目录</a>
