@@ -175,7 +175,7 @@
 <a href='#content'>返回目录</a>
 # 第47章 线性规划和对偶性
 <a href='#content'>返回目录</a>
-第VIII部分 非线性最优化
+
 
 # 附录：术语中英文对照
 <a href='#content'>返回目录</a>
