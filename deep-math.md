@@ -38,6 +38,34 @@
 - [第23章 奇异值分解和伪逆的应用](#-23-------------)
 - [第II部分 仿射和射影几何](#-ii----------)
 - [第24章 仿射几何基础](#-24--------)
+- [第25章 在向量空间中嵌入一个仿射空间](#-25----------------)
+- [第26章 射影几何基础](#-26--------)
+- [第III部分 双线性形式的几何学](#-iii------------)
+- [第27章 Cartan–Dieudonné定理](#-27--cartan-dieudonn---)
+- [第28章 Hermitian空间的等距](#-28--hermitian-----)
+- [第29章 双线性形式的几何学；Witt's定理](#-29------------witt-s--)
+- [第IV部分 代数: PID's,，UFD's，Noetherian 环，张量，PID上的模，范式](#-iv-------pid-s--ufd-s-noetherian------pid------)
+- [第30章 多项式、理想和 PID's](#-30----------pid-s)
+- [第31章 湮灭多项式; 准素分解](#-31-------------)
+- [第32章 UFD's, Noetherian 环, Hilbert 基本定理](#-32--ufd-s--noetherian----hilbert-----)
+- [第33章 张量代数](#-33------)
+- [第34章 外张量幂和外代数](#-34----------)
+- [第35章 模块介绍；PID上的模块](#-35-------pid----)
+- [第36章 范式；有理范式](#-36---------)
+- [第V部分 拓扑学，微积分](#-v----------)
+- [第37章 拓扑学](#-37-----)
+- [第38章 分形学上的绕道](#-38---------)
+- [第39章 微积分](#-39-----)
+- [第VI部分 最优化理论初探](#-vi----------)
+- [第40章 实值函数的外延](#-40---------)
+- [第41章 牛顿方法及其一般化](#-41-----------)
+- [第42章 二次元优化问题](#-42---------)
+- [第43章 Schur补充和应用](#-43--schur-----)
+- [第VII部分 线性最优化](#-vii--------)
+- [第44章 凸集，锥体，H型多面体](#-44--------h----)
+- [第45章 线性规划](#-45------)
+- [第46章 单纯性算法](#-46-------)
+- [第47章 线性规划和对偶性](#-47----------)
 - [附录：术语中英文对照](#----------)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
@@ -96,13 +124,70 @@
 # 第II部分 仿射和射影几何
 # 第24章 仿射几何基础
 <a href='#content'>返回目录</a>
+# 第25章 在向量空间中嵌入一个仿射空间
+<a href='#content'>返回目录</a>
+# 第26章 射影几何基础
+<a href='#content'>返回目录</a>
+# 第III部分 双线性形式的几何学
+# 第27章 Cartan–Dieudonné定理
+<a href='#content'>返回目录</a>
+# 第28章 Hermitian空间的等距
+<a href='#content'>返回目录</a>
+# 第29章 双线性形式的几何学；Witt's定理
+<a href='#content'>返回目录</a>
+# 第IV部分 代数: PID's,，UFD's，Noetherian 环，张量，PID上的模，范式
+# 第30章 多项式、理想和 PID's
+<a href='#content'>返回目录</a>
+# 第31章 湮灭多项式; 准素分解
+<a href='#content'>返回目录</a>
+# 第32章 UFD's, Noetherian 环, Hilbert 基本定理
+<a href='#content'>返回目录</a>
+# 第33章 张量代数
+<a href='#content'>返回目录</a>
+# 第34章 外张量幂和外代数
+<a href='#content'>返回目录</a>
+# 第35章 模块介绍；PID上的模块
+<a href='#content'>返回目录</a>
+# 第36章 范式；有理范式
+<a href='#content'>返回目录</a>
+# 第V部分 拓扑学，微积分
+# 第37章 拓扑学
+<a href='#content'>返回目录</a>
+# 第38章 分形学上的绕道
+<a href='#content'>返回目录</a>
+# 第39章 微积分
+<a href='#content'>返回目录</a>
+# 第VI部分 最优化理论初探
+# 第40章 实值函数的外延
+<a href='#content'>返回目录</a>
+# 第41章 牛顿方法及其一般化
+<a href='#content'>返回目录</a>
+# 第42章 二次元优化问题
+<a href='#content'>返回目录</a>
+# 第43章 Schur补充和应用
+<a href='#content'>返回目录</a>
+# 第VII部分 线性最优化
+# 第44章 凸集，锥体，H型多面体
+<a href='#content'>返回目录</a>
+# 第45章 线性规划
+<a href='#content'>返回目录</a>
+# 第46章 单纯性算法
+<a href='#content'>返回目录</a>
+# 第47章 线性规划和对偶性
+<a href='#content'>返回目录</a>
+第VIII部分 非线性最优化
 
 # 附录：术语中英文对照
 <a href='#content'>返回目录</a>
+<p>Annihilating Polynomials<span style='float:right;position:relative'>湮灭多项式</span></p>
 <p>Affine<span style='float:right;position:relative'>仿射</span></p>
 <p>Bases<span style='float:right;position:relative'>基</span></p>
+<p>Bilinear<span style='float:right;position:relative'>双线性</span></p>
+<p>Cones<span style='float:right;position:relative'>锥体</span></p>
+<p>Convex Sets<span style='float:right;position:relative'>凸集</span></p>
 <p>Cosets<span style='float:right;position:relative'>陪群</span></p>
 <p>Cyclic Groups<span style='float:right;position:relative'>循环群</span></p>
+<p>Detour<span style='float:right;position:relative'>绕道</span></p>
 <p>Differential Calculus<span style='float:right;position:relative'>微积分</span></p>
 <p>Direct Sums<span style='float:right;position:relative'>直接和</span></p>
 <p>Determinants<span style='float:right;position:relative'>行列式</span></p>
@@ -112,27 +197,46 @@
 <p>Eigenvectors<span style='float:right;position:relative'>特征矢量</span></p>
 <p>Eigenvalues<span style='float:right;position:relative'>特征值</span></p>
 <p>Euclidean Space<span style='float:right;position:relative'>欧几里得空间</span></p>
+<p>Exterior Tensor Powers<span style='float:right;position:relative'>外张量幂</span></p>
+<p>Exterior Algebras<span style='float:right;position:relative'>外代数</span></p>
+<p>Extrema<span style='float:right;position:relative'>外延</span></p>
 <p>Fields<span style='float:right;position:relative'>域</span></p>
 <p>Finite Elements<span style='float:right;position:relative'>有限元</span></p>
+<p>Fractals<span style='float:right;position:relative'>分形学</span></p>
+<p>Generalizations<span style='float:right;position:relative'>一般化</span></p>
 <p>Group<span style='float:right;position:relative'>群</span></p>
 <p>Graph Laplacians<span style='float:right;position:relative'>图形拉普拉斯学</span></p>
+<p>Ideals<span style='float:right;position:relative'>理想</span></p>
+<p>Isometrics<span style='float:right;position:relative'>等距</span></p>
 <p>Iteractive Methods<span style='float:right;position:relative'>迭代方法</span></p>
 <p>Linear Algebra<span style='float:right;position:relative'>线性代数</span></p>
 <p>Linear Maps<span style='float:right;position:relative'>线性映射</span></p>
+<p>Linear Programs<span style='float:right;position:relative'>线性规划</span></p>
 <p>Linear Systems<span style='float:right;position:relative'>线性方程组</span></p>
 <p>Machine Learning<span style='float:right;position:relative'>机器学习</span></p>
 <p>Matrices<span style='float:right;position:relative'>矩阵</span></p>
+<p>Modules over a PID<span style='float:right;position:relative'>PID上的模</span></p>
 <p>Norm<span style='float:right;position:relative'>范数</span></p>
-<p>Optimization Theory<span style='float:right;position:relative'>优化理论</span></p>
+<p>Normal Forms<span style='float:right;position:relative'>范式</span></p>
+<p>Optimization Theory<span style='float:right;position:relative'>最优化理论</span></p>
+<p>Quadratic<span style='float:right;position:relative'>二次元</span></p>
 <p>Quaternions<span style='float:right;position:relative'>四元数</span></p>
+<p>Primary Decomposition<span style='float:right;position:relative'>准素分解</span></p>
 <p>Polar Form<span style='float:right;position:relative'>极性形式</span></p>
+<p>Polyhedra<span style='float:right;position:relative'>多面体</span></p>
+<p>Polynomials<span style='float:right;position:relative'>多项式</span></p>
+<p>Powers<span style='float:right;position:relative'>幂</span></p>
 <p>Projective Geometry<span style='float:right;position:relative'>射影几何</span></p>
 <p>Pseudo-Inverses<span style='float:right;position:relative'>伪逆</span></p>
+<p>Rational Canonical Form<span style='float:right;position:relative'>有理范式</span></p>
+<p>Real-Valued Functions<span style='float:right;position:relative'>实值函数</span></p>
 <p>Rings<span style='float:right;position:relative'>环</span></p>
+<p>Simplex Algorithm<span style='float:right;position:relative'>单纯性算法</span></p>
 <p>Singular Value/SVD<span style='float:right;position:relative'>奇异值</span></p>
 <p>Spectral Theorems<span style='float:right;position:relative'>谱定理</span></p>
 <p>Spectral Graph<span style='float:right;position:relative'>谱图</span></p>
 <p>Subgroup<span style='float:right;position:relative'>子群</span></p>
-<p>Topology<span style='float:right;position:relative'>拓扑</span></p>
+<p>Tensors<span style='float:right;position:relative'>张量</span></p>
+<p>Topology<span style='float:right;position:relative'>拓扑学</span></p>
 <p>Vector Spaces<span style='float:right;position:relative'>向量空间</span></p>
 <p>Wavelets<span style='float:right;position:relative'>小波</span></p>
