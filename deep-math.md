@@ -1,4 +1,4 @@
-<h1>用于计算机科学和机器学习的代数，拓扑，微积分和优化理论</h1>
+<h1>用于计算机科学和机器学习的代数，拓扑，微积分和最优化理论</h1>
 <center>Jean Gallier, Jocelyn Quaintance</center>
 <center>计算机和信息科学系</center>
 <center>宾夕法尼亚大学</center>
