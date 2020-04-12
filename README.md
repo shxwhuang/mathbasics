@@ -14,4 +14,4 @@ deep-math.md is the chinese version
 
 deep-math.md是中文翻译版本，并增加了中英文术语对照章节。欢迎指正。
 
-目前进度在前言，争取6月份前完成。
+目前进度在2.1，争取6月份前完成。
