@@ -91,21 +91,22 @@
 <a href='#content'>返回目录</a>
 在接下来的四章中，我们将回顾基本的代数结构(群、环、域、向量空间) ，重点讨论向量空间。 将回顾线性代数的基本概念，如向量空间、子空间、线性组合、线性无关、基、商空间、线性映射、矩阵、基的变化、直和、线性形式、对偶空间、超平面、线性映射的转置等。
 ## 2.1 群，子群，陪集
-实数的集合R有两个运算符：+:R $\times$ R $\rightarrow$ R（加法）和*: R $\times$ R $\rightarrow$ R (乘法)，满足属性，使R成为+下的abelian群，而R - {0} = $R^*$成为*下的abelian群。回顾一下群的定义。
-**定义2.1.** 一个群是一个配备有二元运算的集合 $\cdot$:G$\times$G$\rightarrow$G，将元素a$\cdot$b$\in$G关联到每对元素 a,b$\in$G，具有以下性质:$\cdot$是关联的，有一个特征元素e$\in$G，并且G中的每个元素都是可逆的(w.r.t. $\cdot$)。 更明确地说，这意味着对于所有的a,b,c$\in$G，下面的方程都成立：
-(G1) a$\cdot$(b$\cdot$c) = (a$\cdot$b)$\cdot$. <span style='float:right;position:relative'>(结合性);</span>
-(G2) a$\cdot$e = e$\cdot$a = a.<span style='float:right;position:relative'>(恒等);</span>
-(G3) 对每个a$\in$G, 有一些$a^{-1}$$\in$ G 这样的a$\cdot$$a^{-1}$ = $a^{-1}$$\cdot$a = e.<span style='float:right;position:relative'>(逆);</span>
+实数的集合R有两个运算符：![](http://latex.codecogs.com/gif.latex?+:R{\times}R{\rightarrow}R)（加法）和![](http://latex.codecogs.com/gif.latex?*:R{\times}R{\rightarrow}R)(乘法)，满足属性，使R成为+下的abelian群，而![](http://latex.codecogs.com/gif.latex?R-\left\\{0\right\\}={R\^*})成为*下的abelian群。回顾一下群的定义。
+**定义2.1.** 一个群是一个配备有二元运算的集合 ![](http://latex.codecogs.com/gif.latex?{\cdot}:G{\times}G{\rightarrow}G)，将元素![](http://latex.codecogs.com/gif.latex?a{\cdot}b{\in}G)关联到每对元素 ![](http://latex.codecogs.com/gif.latex?a,b{\in}G)，具有以下性质:$\cdot$是关联的，有一个特征元素e$\in$G，并且G中的每个元素都是可逆的(w.r.t. $\cdot$)。 更明确地说，这意味着对于所有的a,b,c$\in$G，下面的方程都成立：
+(G1) ![](http://latex.codecogs.com/gif.latex?a{\cdot}(b{\cdot}c)=(a{\cdot}b){\cdot}c). <span style='float:right;position:relative'>(结合性);</span>
+(G2) ![](http://latex.codecogs.com/gif.latex?a{\cdot}e=e{\cdot}a=a).<span style='float:right;position:relative'>(恒等);</span>
+(G3) 对每个![](http://latex.codecogs.com/gif.latex?a{\in}G), 有一些![](http://latex.codecogs.com/gif.latex?a{\^{-1}}{\in}G) 这样的![](http://latex.codecogs.com/gif.latex?a{\cdot}a{\^{-1}}=a{\^{-1}}{\cdot}a=e).<span style='float:right;position:relative'>(逆);</span>
 
 一个群G是abelian (或者交换) 如果
-a$\cdot$b = b$\cdot$a   对所有的a,b$\in$G.
+![](http://latex.codecogs.com/gif.latex?a{\cdot}b=b{\cdot}a)   对所有的![](http://latex.codecogs.com/gif.latex?a,b{\in}G).
 
-一个集合M和一个运算：$\cdot$: M$\times$M$\rightarrow$M和一个元素e只满足条件(G1)和(G2)的集合被称为幺半群/独异点。例如，自然数的集合N = {0,1,$\cdots$,n,$\cdots$} 是加法下的（交换）幺半群/独异点。但是，它不是一个群。
+一个集合M和一个运算：![](http://latex.codecogs.com/gif.latex?{\cdot}:M{\times}M{\rightarrow}M})和一个元素e只满足条件(G1)和(G2)的集合被称为幺半群/独异点。例如，自然数的集合 ![](http://latex.codecogs.com/gif.latex?{N=\left\\{{0,1,{\cdots},n,{\cdots}}\right\\}}) 是加法下的（交换）幺半群/独异点。但是，它不是一个群。
 下面给出了一些群的例子。
 **例子2.1.**
-1. 集合 Z = {$\cdots$,-n,$\cdots$,-1,0,1,$\cdots$,n,$\cdots$} 的整数是一个加法下的abelian群，特征元素为0，但是，Z$^*$ = Z - {0} 不是一个乘法下的群。
-2. 有理数（分数 p/q 且 p, q $\in$ Z, 同时 q $\neq$ 0）的集合Q是加法下的一个 abelian群，其特征元素为0。集合 Q$^*$ = Q - {0} 也是乘法下的一个abelian群，特征元素为1。
-3. 给定任意非空集合 S，双射集 f: S $\rightarrow$ S，也称为 S 的置换，是复合函数下的群(即 f 和 g 的乘法是 复合 g $\circ$ f) ，特征元素是特征函数 id$_s$。 只要 S 有两个以上的元素，这个群就不是 abelian群。 集合 S = {1,$\cdots$,n} 的置换群通常表示为 S$_n$，称为 n 元素上的对称群。## 2.2 循环群
+1. 集合 ![](http://latex.codecogs.com/gif.latex?{Z=\left\\{{{\cdots},-n,{\cdots},-1,0,1,{\cdots}}\right\\}})的整数是一个加法下的abelian群，特征元素为0，但是，![](http://latex.codecogs.com/gif.latex?Z{\^*}=Z-\left\\{{0}\right\\})不是一个乘法下的群。
+2. 有理数（分数 p/q 且 p, ![](http://latex.codecogs.com/gif.latex?q{\in}Z), 同时 ![](http://latex.codecogs.com/gif.latex?q{\neq}0)的集合Q是加法下的一个 abelian群，其特征元素为0。集合 ![](http://latex.codecogs.com/gif.latex?Q{\^*}=Q-\left\\{{0}\right\\}) 也是乘法下的一个abelian群，特征元素为1。
+3. 给定任意非空集合 S，双射集 ![](http://latex.codecogs.com/gif.latex?f:S{\rightarrow}S)，也称为 S 的置换，是复合函数下的群(即 f 和 g 的乘法是 复合 ![](http://latex.codecogs.com/gif.latex?g{\circ}f)) ，特征元素是特征函数 ![](http://latex.codecogs.com/gif.latex?id{\_S})。 只要 S 有两个以上的元素，这个群就不是 abelian群。 集合 ![](http://latex.codecogs.com/gif.latex?S=\left\\{{1,{\codts},n}\right\\}) 的置换群通常表示为 ![](http://latex.codecogs.com/gif.latex?S{\_n})，称为 n 元素上的对称群。
+## 2.2 循环群
 ## 2.3 环和域
 # 第I部分 线性代数
 # 第3章 向量空间，基，线性映射
