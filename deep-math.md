@@ -92,7 +92,8 @@
 在接下来的四章中，我们将回顾基本的代数结构(群、环、域、向量空间) ，重点讨论向量空间。 将回顾线性代数的基本概念，如向量空间、子空间、线性组合、线性无关、基、商空间、线性映射、矩阵、基的变化、直和、线性形式、对偶空间、超平面、线性映射的转置等。
 ## 2.1 群，子群，陪集
 实数的集合R有两个运算符：![](http://latex.codecogs.com/gif.latex?+:R{\times}R{\rightarrow}R)（加法）和![](http://latex.codecogs.com/gif.latex?*:R{\times}R{\rightarrow}R)(乘法)，满足属性，使R成为+下的abelian群，而![](http://latex.codecogs.com/gif.latex?R-\left\\{0\right\\}={R\^*})成为*下的abelian群。回顾一下群的定义。  
-**定义2.1.** 一个群是一个配备有二元运算的集合 ![](http://latex.codecogs.com/gif.latex?{\cdot}:G{\times}G{\rightarrow}G)，将元素![](http://latex.codecogs.com/gif.latex?a{\cdot}b{\in}G)关联到每对元素 ![](http://latex.codecogs.com/gif.latex?a,b{\in}G)，具有以下性质:$\cdot$是关联的，有一个特征元素e$\in$G，并且G中的每个元素都是可逆的(w.r.t. $\cdot$)。 更明确地说，这意味着对于所有的a,b,c$\in$G，下面的方程都成立：  
+**定义2.1.** 一个群是一个配备有二元运算的集合   
+![](http://latex.codecogs.com/gif.latex?{\cdot}:G{\times}G{\rightarrow}G)，将元素![](http://latex.codecogs.com/gif.latex?a{\cdot}b{\in}G)关联到每对元素 ![](http://latex.codecogs.com/gif.latex?a,b{\in}G)，具有以下性质:![](http://latex.codecogs.com/gif.latex?{\cdot})是关联的，有一个特征元素![](http://latex.codecogs.com/gif.latex?e{\in}G)，并且G中的每个元素都是可逆的![](http://latex.codecogs.com/gif.latex?\left\(w.r.t.{\cdot}\right\))。 更明确地说，这意味着对于所有的![](http://latex.codecogs.com/gif.latex?a,b,c{\in}G)，下面的方程都成立：    
 (G1) ![](http://latex.codecogs.com/gif.latex?a{\cdot}(b{\cdot}c)=(a{\cdot}b){\cdot}c). <span style='float:right;position:relative'>(结合性);</span>  
 (G2) ![](http://latex.codecogs.com/gif.latex?a{\cdot}e=e{\cdot}a=a).<span style='float:right;position:relative'>(恒等);</span>  
 (G3) 对每个![](http://latex.codecogs.com/gif.latex?a{\in}G), 有一些![](http://latex.codecogs.com/gif.latex?a{\^{-1}}{\in}G) 这样的![](http://latex.codecogs.com/gif.latex?a{\cdot}a{\^{-1}}=a{\^{-1}}{\cdot}a=e).<span style='float:right;position:relative'>(逆);</span>
